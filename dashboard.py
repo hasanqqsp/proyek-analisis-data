@@ -1,9 +1,7 @@
-import matplotlib.pyplot
+import matplotlib.pyplot as plt
 import streamlit as st
 import pandas as pd
-import matplotlib 
 
-plt = matplotlib.pyplot
 # Load dataset
 df = pd.read_csv('hour.csv')  
 
